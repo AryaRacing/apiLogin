@@ -1,0 +1,6 @@
+runtime: nodejs20
+service: auth
+
+handlers:
+  - url: /.*
+    script: auto
